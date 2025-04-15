@@ -1,0 +1,74 @@
+# .gitignore for C# projects
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider project files
+.idea/
+*.sln.iml
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# DotCover
+*.dotCover
+
+# NCrunch
+*.ncrunch*
+.*crunch*.local.xml
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# DotTrace
+*.dotTrace
+
+# TeamCity
+_TeamCity*
+
+# DotMemory
+*.dotMemory
+
+# Azure Pipelines
+*.azure-pipelines*
+
+# VS Code settings
+.vscode/
+
+# NuGet packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# Windows image file caches
+Thumbs.db
+Desktop.ini
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Others
+*.log
+*.vspscc
+*.vssscc
+*.dbmdl
+*.pdb
+*.cache
+*.bak
+*.backup
+*.swp
+*.tmp
+*.temp
+*.DS_Store
